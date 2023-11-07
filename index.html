@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+
+            background: linear-gradient(to right, black 0%, white 50%, black 100%);
+        }
+
+        #LoginBox{
+            width: 50vh;
+            margin-left: 5px;
+            margin-right: auto;
+
+            height: auto;
+            margin-top: 5px;
+            margin-bottom: auto;
+
+            border-style: solid;
+            border-color: blue;
+            background: linear-gradient(to bottom, pink 0%, red 33%, purple 66%, cyan 100%);
+
+            padding-left: 1%;
+            padding-right: 1%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+
+        .boxForm{
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 1%;
+            padding-right: 1%;
+            align-content: space-between;
+
+            border-style: solid;
+        }
+
+        .boxTitle{
+            margin-top: 1%;
+            margin-bottom: 1%;
+            text-align: center;
+        }
+
+        .boxSpan{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+
+        .boxInputDiv{
+            height: auto;
+            margin-top: 1%;
+            margin-bottom: 1%;
+
+            width: auto;
+            margin-left: 1%;
+            margin-right: 1%;
+
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 1%;
+            padding-right: 1%;
+
+            text-align: left;
+        }
+
+        .boxInput{
+            height: auto;
+            margin-top: 1%;
+            margin-bottom: 1%;
+
+            width: 40%;
+            margin-left: 1%; 
+            margin-right: 15%; 
+        }
+
+        #CustomBox{
+            width: 50vh;
+            margin-left: 5px;
+            margin-right: auto;
+
+            height: auto;
+            margin-top: 5px;
+            margin-bottom: auto;
+
+            border-style: solid;
+            border-color: blue;
+            background: linear-gradient(to bottom, yellow 0%, orange 25%, red 50%, purple 75%, cyan 100%);
+
+            padding-left: 1%;
+            padding-right: 1%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+    </style>
+</head>
+<body>
+    <div id = "LoginBox">
+        <form class = "boxForm">
+            <h2 class = "boxTitle">Login</h2>
+            <span>Login
+                <div class = "boxInputDiv">
+                    <input class = "boxInput" type="text" name="LoginID">
+                </div>
+            </span>    
+            <p></p>
+            <span>Password
+                <div class = "boxInputDiv">
+                    <input class = "boxInput" type="text" name="Password">
+                </div>
+            </span>
+        </form>
+    </div>
+
+    <div id = "CustomBox">
+        <form class = "boxForm">
+            <h2 class = "boxTitle"> Insight's Box</h2>
+            <span>CheckBox
+                <div>
+                    <input type="checkbox">
+                </div>
+            </span>
+            <p></p>
+
+            <span>ColorBox
+                <div>
+                    <input type="color">
+                </div>
+            </span>
+            <p></p>
+
+            <span>ButtonBox
+                <div>
+                    <input type="button">
+                </div>
+            </span>
+            <p></p>
+
+            <span>DateBox
+                <div>
+                    <input type="date">
+                </div>
+            </span>
+            <p></p>
+
+            <span>DatetimeBox
+                <div>
+                    <input type="datetime">
+                </div>
+            </span>
+            <p></p>
+
+            <span>DatetimeLocalBox
+                <div>
+                    <input type="datetime-local">
+                </div>
+            </span>
+            <p></p>
+
+            <span>EmailBox
+                <div>
+                    <input type="email">
+                </div>
+            </span>
+            <p></p>
+
+            <span>FileBox
+                <div>
+                    <input type="file">
+                </div>
+            </span>
+            <p></p>
+
+            <span>HiddenBox
+                <div>
+                    <input type="hidden">
+                </div>
+            </span>
+            <p></p>
+
+            <span>ImageBox
+                <div>
+                    <input type="image">
+                </div>
+            </span>
+            <p></p>
+
+            <span>MonthBox
+                <div>
+                    <input type="month">
+                </div>
+            </span>
+            <p></p>
+
+            <span>NumberBox
+                <div>
+                    <input type="number">
+                </div>
+            </span>
+            <p></p>
+            
+            <span>PasswordBox
+                <div>
+                    <input type="password">
+                </div>
+            </span>
+            <p></p>
+
+            <span>RadioBox
+                <div>
+                    <input type="radio">
+                </div>
+            </span>
+            <p></p>      
+
+            <span>RangeBox
+                <div>
+                    <input type="range">
+                </div>
+            </span>
+            <p></p>      
+
+            <span>ResetBox
+                <div>
+                    <input type="reset">
+                </div>
+            </span>
+            <p></p>      
+
+            <span>SearchBox
+                <div>
+                    <input type="search">
+                </div>
+            </span>
+            <p></p>
+            
+            <span>SubmitBox
+                <div>
+                    <input type="submit">
+                </div>
+            </span>
+            <p></p>     
+
+            <span>TelBox
+                <div>
+                    <input type="tel">
+                </div>
+            </span>
+            <p></p>     
+
+            <span>TextBox
+                <div>
+                    <input type="text">
+                </div>
+            </span>
+            <p></p>
+
+            <span>TimeBox
+                <div>
+                    <input type="time">
+                </div>
+            </span>
+            <p></p>     
+
+            <span>UrlBox
+                <div>
+                    <input type="url">
+                </div>
+            </span>
+            <p></p>     
+
+            <span>WeekBox
+                <div>
+                    <input type="week">
+                </div>
+            </span>
+            <p></p>
+        </form>
+    </div>
+
+    <script>
+
+
+    </script>
+</body>
+</html>
